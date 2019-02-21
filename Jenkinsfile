@@ -20,9 +20,7 @@ podTemplate(label: 'pod-hugo-app', containers: [
             checkout scm
  
             container('hugo') {
-                stage('Build Hugo Site') {
-                    sh ("cat")
-                }
+                stage('Build Hugo Site')
             }
     
             container('html-proofer') {
