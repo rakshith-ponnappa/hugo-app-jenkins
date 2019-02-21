@@ -32,11 +32,11 @@ googleAnalytics = ""
 
 <<<<<<< HEAD
 	[params.palette]
-    	primary = "black"
+    	primary = "white"
     	accent  = "teal"
 =======
         [params.palette]
-        primary = "blue"
+        primary = "white"
         accent  = "teal"
 >>>>>>> b9030ef0bf9ec8f12b153826df9d8b7da4f51833
 
