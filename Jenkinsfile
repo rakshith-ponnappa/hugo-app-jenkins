@@ -20,7 +20,10 @@ podTemplate(label: 'pod-hugo-app', containers: [
             checkout scm
  
             container('hugo') {
-                stage('Build Hugo Site')
+                stage('Build Hugo Site'){
+                    sh ("hugo --uglyURLs")
+                    echo ("error is here")
+                }
             }
     
             container('html-proofer') {
